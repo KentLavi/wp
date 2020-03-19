@@ -28,7 +28,7 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 def banner(argv, usage = False, url = None, users = None):
-    print bcolors.OKBLUE + " __      __                        .___                                             " + bcolors.ENDC
+    print bcolors.OKBLUE + "" + bcolors.ENDC
     print bcolors.OKBLUE + "/  \    /  \   ____   _______    __| _/ ______   _______    ____     ______   ______" + bcolors.ENDC
     print bcolors.OKBLUE + "\   \/\/   /  /  _ \  \_  __ \  / __ |  \____ \  \_  __ \ _/ __ \   /  ___/  /  ___/" + bcolors.ENDC
     print bcolors.OKBLUE + " \        /  (  <_> )  |  | \/ / /_/ |  |  |_> >  |  | \/ \  ___/   \___ \   \___ \ " + bcolors.ENDC
@@ -37,8 +37,8 @@ def banner(argv, usage = False, url = None, users = None):
     print bcolors.OKBLUE + "" + bcolors.ENDC
     print bcolors.OKBLUE + "        \ /       _  _  __    _  _    ___ __    __ _  _  __ __" + bcolors.ENDC
     print bcolors.OKBLUE + "         X |V||  |_)|_)/     |_)|_)| | | |_    |_ / \|_)/  |_ " + bcolors.ENDC
-    print bcolors.OKBLUE + '        / \| ||__| \|  \__   |_)| \|_| | |__   |  \_/| \\\__|__' + bcolors.ENDC
-    print bcolors.OKBLUE + " __      __                        .___                                             " + bcolors.ENDC
+    print bcolors.OKBLUE + "        / \| ||__| \|  \__   |_)| \|_| | |__   |  \_/| \\\__|__" + bcolors.ENDC
+    print bcolors.OKBLUE + "" + bcolors.ENDC
     print bcolors.OKBLUE + "+ -- --=[XML-RPC Brute Force Exploit by 1N3 @ https://crowdshield.com" + bcolors.ENDC
     if usage:
         print bcolors.OKBLUE + "+ -- --=[Usage: %s http://wordpress.org/xmlrpc.php passwords.txt username [username]..." % (argv[0]) + bcolors.ENDC
